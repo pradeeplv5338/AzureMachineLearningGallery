@@ -60,6 +60,8 @@ Build pipeline with newly created components and a manufacture sample dataset.
     * `lowerBoundary`. The lower boundary at each point that the algorithm can tolerant as not anomaly.
     * `upperBoundary`. The upper boundary at each point that the algorithm can tolerant as not anomaly.
 
+## Reference papers
+- [Ren, Hansheng et al. “Time-Series Anomaly Detection Service at Microsoft.” Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (2019): n. pag. Crossref. Web.](https://arxiv.org/abs/1906.03821#:~:text=At%20Microsoft%2C%20we%20develop%20a%20time-series%20anomaly%20detection,is%20designed%20to%20be%20accurate%2C%20efficient%20and%20general)
 
 
 | Contributed by | Maintained by | Category | Tags | Last update | 
