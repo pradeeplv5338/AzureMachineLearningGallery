@@ -3,7 +3,7 @@
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: microsoft.com.azureml.samples.XGBRegressorTraining.Demo1
 version: 0.0.1
-display_name: XGBRegressorTraining
+display_name: XGBRegressorTrainingDemo1
 type: CommandComponent
 is_deterministic: false
 tags:
