@@ -1,0 +1,25 @@
+$schema: http://azureml/sdk-2-0/CommandComponent.json
+name: execute_r_script
+display_name: Execute R Script
+version: 0.0.1
+type: CommandComponent
+is_deterministic: true
+tags: {}
+inputs:
+  dataset1:
+    type: DataFrameDirectory
+    optional: false
+  dataset2:
+    type: DataFrameDirectory
+    optional: false
+outputs:
+  result_dataset1:
+    type: DataFrameDirectory
+  result_dataset2:
+    type: DataFrameDirectory
+command: >-
+  Rscript execute_r_script.r {inputs.dataset1} {inputs.dataset2} {outputs.result_dataset1} {outputs.result_dataset2}
+environment:
+  conda:
+    conda_dependencies_file: conda.yaml
+  os: Linux
