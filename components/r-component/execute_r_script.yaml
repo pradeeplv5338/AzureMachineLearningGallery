@@ -1,5 +1,5 @@
 $schema: http://azureml/sdk-2-0/CommandComponent.json
-name: execute_r_script
+name: Execute R Script_v2
 display_name: Execute R Script_v2
 version: 0.0.2
 type: CommandComponent
