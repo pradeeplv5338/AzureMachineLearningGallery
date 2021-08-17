@@ -1,7 +1,7 @@
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: execute_r_script
-display_name: Execute R Script
-version: 0.1.1
+display_name: Execute R Script_v2
+version: 0.0.2
 type: CommandComponent
 is_deterministic: true
 tags: {}
